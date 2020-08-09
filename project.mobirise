@@ -90,7 +90,7 @@
         "url": "https://fonts.googleapis.com/css?family=Audiowide:400"
       }
     ],
-    "favicon": false,
+    "favicon": "@PROJECT_PATH@/assets/images/favicon1.png",
     "noImageResize": null,
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
@@ -101,7 +101,7 @@
     "uniqCompNum": 130,
     "versionPublish": "4.12.4",
     "screenshot": "screenshot.png",
-    "imageResize": true
+    "imageResize": false
   },
   "pages": {
     "index.html": {
