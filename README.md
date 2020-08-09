@@ -1,2 +1,2 @@
 # bflatinteractive
-GitHub Pages
+Hosting for bflatinteractive.com
