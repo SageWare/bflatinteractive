@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "BFLAT Interactive",
-    "currentPage": "index.html",
+    "currentPage": "skills.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -108,7 +108,7 @@
       "settings": {
         "main": true,
         "title": "BFLAT Interactive",
-        "meta_descr": "BFLAT Interactive is an independent game studio based in the United States.",
+        "meta_descr": "BFLAT Interactive is an independent game studio based in the United States. The creators of VITAL 2020.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
@@ -806,7 +806,7 @@
     "games.html": {
       "settings": {
         "title": "GAMES - BFLAT Interactive",
-        "meta_descr": "",
+        "meta_descr": "Games by BFLAT Interactive. Vital 2020, Return To Nothing, Skills, Black Hole Feeds, and more.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -1579,7 +1579,7 @@
     "vital-2020.html": {
       "settings": {
         "title": "VITAL 2020 - BFLAT Interactive",
-        "meta_descr": "",
+        "meta_descr": "The Government has declared that all citizens at age 18 shall be given BFLAT Interactive’s latest health software, the VITAL 2020.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -2344,8 +2344,8 @@
     },
     "skills.html": {
       "settings": {
-        "title": "Skills - BFLAT Interactive",
-        "meta_descr": "",
+        "title": "SKILLS - BFLAT Interactive",
+        "meta_descr": "SKILLS is an action packed winter sport simulator, where you ski downhill at supersonic speeds.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -2859,7 +2859,7 @@
             }
           },
           "_name": "extContent10",
-          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"color\" title=\"Block Color\" name=\"bgcolor\" value=\"#212748\" selected>\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#212748\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-6 title-col m-auto align-left\" mbr-class=\"{'order-2':reverseContent}\">\n                <div class=\"text-wrap align-left\">\n                    <h2 class=\"mbr-section-title pb-4 mbr-semibold mbr-white mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"></h2>\n                    <p class=\"mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Skills</b> is an action packed winter sport simulator, where you ski downhill at supersonic speeds. Your objective is to SKILL the blue guys, while avoiding the obstacles that are eager to stop and break you.\n<br>\n<br><b>Controls:</b> Left &amp; Right Arrows to move. SPACE to slow down. R to restart.\n<br>\n<br>A free game for Windows &amp; browser.<br><br>Now available for Windows and Browser on <a href=\"https://bflatinteractive.itch.io/skills\" target=\"_blank\">Itch.io</a><br></p>\n                </div>\n            </div>\n            <div class=\"col-lg-6 img-col\">\n                <img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/skills-cover-510x405.png\" alt=\"Mobirise\" title>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"extСontent\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"2\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"color\" title=\"Block Color\" name=\"bgcolor\" value=\"#212748\" selected>\n        <input type=\"checkbox\" title=\"Reverse Content\" name=\"reverseContent\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background1.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#212748\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://www.youtube.com/watch?v=36YgDDJ7XSc\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-lg-6 title-col m-auto align-left\" mbr-class=\"{'order-2':reverseContent}\">\n                <div class=\"text-wrap align-left\">\n                    <h2 class=\"mbr-section-title pb-4 mbr-semibold mbr-white mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"></h2>\n                    <p class=\"mbr-text mbr-black mbr-regular mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>SKILLS</b> is an action packed winter sport simulator, where you ski downhill at supersonic speeds. Your objective is to skill the blue guys, while avoiding the obstacles that are eager to stop and break you.\n<br>\n<br><b>Controls:</b> Left &amp; Right Arrows to move. SPACE to slow down. R to restart.\n<br>\n<br>A free game for Windows &amp; browser.<br><br>Now available for Windows and Browser on <a href=\"https://bflatinteractive.itch.io/skills\" target=\"_blank\">Itch.io</a><br></p>\n                </div>\n            </div>\n            <div class=\"col-lg-6 img-col\">\n                <img class=\"img2\" src=\"@PROJECT_PATH@/assets/images/skills-cover-510x405.png\" alt=\"Mobirise\" title>\n            </div>\n\n        </div>\n    </div>\n</section>",
           "_cid": "s78zrhEd0H",
           "_anchor": "extContent10-2h",
           "_protectedParams": [],
@@ -3111,7 +3111,7 @@
     "black-hole-feeds.html": {
       "settings": {
         "title": "Black Hole Feeds - BFLAT Interactive",
-        "meta_descr": "",
+        "meta_descr": "Play as Hole Hogan, a hungry black hole that needs his Hole Foods. Don't miss too many, or it's game over!",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -3877,7 +3877,7 @@
     "return-to-nothing.html": {
       "settings": {
         "title": "Return to Nothing - BFLAT Interactive",
-        "meta_descr": "",
+        "meta_descr": "In a universe of nothing, you must rebuild. Create a big bang and shape the universe to your will in this space simulator. ",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -4643,7 +4643,7 @@
     "about.html": {
       "settings": {
         "title": "About - BFLAT Interactive",
-        "meta_descr": "",
+        "meta_descr": "About BFLAT Interactive.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -5317,7 +5317,7 @@
     "careers.html": {
       "settings": {
         "title": "Careers - BFLAT Interactive",
-        "meta_descr": "",
+        "meta_descr": "Careers at BFLAT Interactive.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -5952,7 +5952,7 @@
     "contact.html": {
       "settings": {
         "title": "Contact - BFLAT Interactive",
-        "meta_descr": "",
+        "meta_descr": "Contact BFLAT Interactive.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
