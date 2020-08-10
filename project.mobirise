@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "BFLAT Interactive",
-    "currentPage": "skills.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -108,7 +108,7 @@
       "settings": {
         "main": true,
         "title": "BFLAT Interactive",
-        "meta_descr": "BFLAT Interactive is an independent game studio based in the United States. The creators of VITAL 2020.",
+        "meta_descr": "BFLAT Interactive is an independent game studio based in the United States. The creators of VITAL 2020 and Return to Nothing.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": ""
