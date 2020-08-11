@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "BFLAT Interactive",
-    "currentPage": "skills.html",
+    "currentPage": "about.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -98,7 +98,7 @@
     "siteUrl": false,
     "cookiesAlert": false,
     "gdpr": false,
-    "uniqCompNum": 142,
+    "uniqCompNum": 145,
     "versionPublish": "5.0.10",
     "screenshot": "screenshot.png",
     "imageResize": false
@@ -2067,11 +2067,11 @@
           "_name": "image3",
           "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"2\" step=\"1\" condition=\"fullWidth==false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"1\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">        \n        \n        <input type=\"range\" inline title=\"Width\" name=\"imageSize\" min=\"20\" max=\"100\" value=\"58\" step=\"1\" condition=\"fullWidth==false\">\n\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#212748\" condition=\"fullWidth==false\">\n        <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n        <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#cc2952\" condition=\"gradientBg && fullWidth==false\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <figure class=\"mbr-figure\" mbr-class=\"{'container':fullWidth==false}\">\n            <div class=\"image-block\" mbr-style=\"{'width':imageSize+'%'}\">\n                <img src=\"@PROJECT_PATH@/assets/images/vital-2020-cover-510x405.png\" width=\"1400\" alt=\"Mobirise\" title>\n                <figcaption class=\"mbr-figure-caption mbr-figure-caption-over\" mbr-if=\"showText\">\n                    <div mbr-text class=\"container pb-5 mbr-white align-center mbr-fonts-style\" mbr-theme-style=\"display-1\"></div>\n                </figcaption>\n            </div>\n    </figure>\n</section>",
           "_cid": "s7k7KjUHE5",
+          "_anchor": "image3-3q",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "image3-3q"
+          "_params": {}
         },
         {
           "alias": false,
@@ -2092,11 +2092,11 @@
           "_name": "content1",
           "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#212748\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>The year is 2020. The world is facing an unbeatable pandemic and its citizens have been placed in lifelong quarantine. The Government has declared that all citizens at age 18 shall be given BFLAT Interactive’s latest health software, the <b>VITAL 2020</b>. The VITAL 2020 system is “the premium of home health monitoring.” \n</p><p>\n</p><p>Today is your 18th birthday, and this is your VITAL 2020 system. Administer the correct medications for the illnesses that ail you. Can you keep yourself alive for the next 82 years?\n</p><p>\n</p><p>Now available for Windows and Browser on <a href=\"https://bflatinteractive.itch.io/vital-2020-windows\" target=\"_blank\">Itch.io</a></p></div>\n        </div>\n    </div>\n</section>",
           "_cid": "s7k8g2J19e",
+          "_anchor": "content1-3r",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "content1-3r"
+          "_params": {}
         },
         {
           "alias": false,
@@ -5102,6 +5102,33 @@
           "_params": {}
         },
         {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text, blockquote": {
+              "color": "#767676"
+            },
+            ".mbr-text": {
+              "color": "#ffffff"
+            },
+            ".mbr-text P": {
+              "text-align": "center"
+            }
+          },
+          "_name": "content1",
+          "_customHTML": "<section class=\"mbr-section article content1\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#212748\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-text col-12 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\" data-multiline mbr-article mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\"><p>BFLAT Interactive is an independent game studio based in the United States, founded by Sage Fremont and Daniel Manoiu.\n</p><p><br></p><p>In 2019, friends Daniel Manoiu and Sage Fremont participated in a game jam which would later result in BFLAT Interactive's first game, Black Hole Feeds. It was a simple sci-fi arcade game aimed at children. Having been well received by locals on the west coast, the pair decided to venture into game development full-time. It was then that BFLAT Interactive was born.</p></div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "content1-3y",
+          "_isUserblock": true,
+          "_sourceTheme": "mobirise4",
+          "_cid": "s7kfwfmCSu",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
           "alias": "mobirise4-blocks/components",
           "_isSecondary": true,
           "typeCompatible": "type",
@@ -5114,107 +5141,56 @@
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-section-subtitle": {
+            ".mbr-iconfont": {
+              "color": "@warningColor",
+              "&:hover": {
+                "color": "@iconsHover !important"
+              }
+            },
+            ".mbr-text": {
+              "margin": "1.5rem 0"
+            },
+            ".card-img": {
+              "margin-bottom": "2rem",
+              "max-width": "200px",
+              "max-height": "200px",
+              "margin": "0 auto 2rem auto",
+              "border-radius": "50%",
+              "overflow": "hidden",
+              "position": "relative",
+              "z-index": "1",
+              "-webkit-box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
+              "box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)"
+            },
+            ".img-icon": {
+              "width": "100%",
+              "height": "auto"
+            },
+            "@media (min-width: 992px)": {
+              ".my-col": {
+                "-webkit-flex": "0 0 20%",
+                "flex": "0 0 20%",
+                "max-width": "20%",
+                "padding": "15px"
+              }
+            },
+            ".mbr-section-subtitle, .mbr-text, .social-links .mbr-iconfont": {
+              "color": "#8d97ad"
+            },
+            ".card-title": {
+              "color": "#55b4d4"
+            },
+            ".user-desc": {
               "color": "#ffffff"
             },
-            ".media-container-row": {
-              "-webkit-flex-wrap": "wrap",
-              "-ms-flex-wrap": "wrap",
-              "flex-wrap": "wrap"
-            },
-            ".mbr-author-desc": {
-              "display": "block",
-              "color": "#232323"
-            },
-            ".mbr-author-name": {
-              "color": "#149dcc",
-              "text-align": "center"
-            },
-            ".mbr-testimonial": {
-              ".panel-item": {
-                "transition": "all 0.3s",
-                "&:hover": {
-                  "transform": "translateY(-1.5rem)"
-                }
-              },
-              ".card-block": {
-                "-webkit-flex-grow": "0",
-                "flex-grow": "0",
-                "padding": "2rem",
-                "position": "relative",
-                ".testimonial-photo": {
-                  "display": "inline-block",
-                  "max-width": "180px",
-                  "max-height": "180px",
-                  "overflow": "hidden",
-                  "border-radius": "50%",
-                  "img": {
-                    "width": "100%",
-                    "min-width": "100%",
-                    "min-height": "100%"
-                  }
-                }
-              },
-              ".card-footer": {
-                "position": "absolute",
-                "top": "0",
-                "left": "0",
-                "justify-content": "center",
-                "display": "flex",
-                "flex-direction": "column",
-                "background-color": "fade(@cardsColor, 80%)",
-                "opacity": "0",
-                "width": "100%",
-                "height": "100%",
-                "border-top": "0",
-                "word-wrap": "break-word",
-                "word-break": "break-word",
-                "transition": "all 0.2s",
-                "transform": "translateY(2rem)",
-                "box-shadow": "0 10px 55px 5px fade(lighten(@secondaryColor, 10%), 35%)",
-                "border-radius": "0.25rem",
-                "&:hover": {
-                  "transform": "translateY(0rem)",
-                  "opacity": "1"
-                }
-              }
-            },
-            "@media (max-width: 576px)": {
-              ".card-footer": {
-                "transform": "translateY(0rem) !important",
-                "opacity": "1!important"
-              }
-            },
-            "@media (max-width: 300px)": {
-              ".testimonial-photo": {
-                "width": "100% !important",
-                "height": "auto !important"
-              }
-            },
-            ".mbr-iconfont-social": {
-              "font-size": "18px"
-            },
-            ".icon1": {
-              "color": "@iconsColor1"
-            },
-            ".icon2": {
-              "color": "@iconsColor2"
-            },
-            ".icon3": {
-              "color": "@iconsColor3"
-            },
-            ".social-list": {
-              "a:focus": {
-                "text-decoration": "none"
-              }
+            ".mbr-text, .social-links .mbr-iconfont": {
+              "color": "#ffffff"
             }
           },
-          "_name": "extTeams10",
-          "_customHTML": "<section class=\"extTeams\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Images\" name=\"showImages\" checked>\n        <input type=\"checkbox\" title=\"Hover Effect (disable to change images)\" name=\"hoverEffect\" checked>\n        <input type=\"checkbox\" title=\"Show Name\" name=\"showName\" checked condition=\"hoverEffect\">\n        <input type=\"checkbox\" title=\"Show Biography\" name=\"showBio\" condition=\"hoverEffect\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n        </select>\n        <input type=\"color\" title=\"Icon 1 Color\" name=\"iconsColor1\" value=\"#ff3366\" condition=\"iconsCount > 0\">\n        <input type=\"color\" title=\"Icon 2 Color\" name=\"iconsColor2\" value=\"#149dcc\" condition=\"iconsCount > 1\">\n        <input type=\"color\" title=\"Icon 3 Color\" name=\"iconsColor3\" value=\"#5b686b\" condition=\"iconsCount > 2\">\n\n\n        <input type=\"color\" title=\"Cards Color\" name=\"cardsColor\" value=\"#ffffff\">\n        <select title=\"Cards Count\" name=\"TestimonialsCount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background2.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#212748\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" condition=\"overlay&&bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n            <div class=\"title col-12 align-center\">\n                <h2 class=\"pb-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">\n                    Our Team</h2>\n                <h3 class=\"mbr-section-subtitle mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">BFLAT Interactive is an independent game studio based in the United States, founded by Daniel Manoiu and Sage Fremont.<br><br>In 2019, friends Daniel Manoiu and Sage Fremont participated in a game jam which would later result in BFLAT Interactive's first game,&nbsp;<i>Black Hole Feeds</i>. It was a simple sci-fi arcade game aimed at children. Having been well received by locals on the west coast, the pair decided to venture into game development full-time. It was then that BFLAT Interactive was born.<br></h3>\n            </div>\n        </div>\n    </div>\n\n    <div class=\"container pt-3 mt-2\">\n        <div class=\"media-container-row\">\n            <div class=\"mbr-testimonial align-center col-12 col-md-6\" mbr-class=\"{'col-lg-4': TestimonialsCount <= 3, 'col-lg-3': TestimonialsCount > 3  }\">\n                <div class=\"panel-item\">\n                    <div class=\"card-block\">\n                        <div class=\"testimonial-photo\" mbr-if=\"showImages\">\n                            <img src=\"@PROJECT_PATH@/assets/images/daniel-image-3-350x350.png\" alt title>\n                        </div>\n                    </div>\n                    <div class=\"card-footer\" mbr-if=\"!!hoverEffect\">\n                        <div class=\"mbr-author-name mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-author-name\" mbr-text>Daniel Manoiu</div>\n                        <p class=\"mbr-author-desc pt-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showBio\" data-app-selector=\".mbr-author-desc\">\n                            Daniel is a Romanian game developer and musician, based in Long Beach, California. He has worked on numerous projects, including the <i>Chuck E Cheese</i> animated series, virtual reality experience <i>SZEN</i>, and <i>Ray &amp; Clovis</i> on Amazon Prime.<br> </p>\n\n                        <div class=\"social-list pt-4 pl-0 mb-0\">\n                            <a href=\"https://github.com/Manoiumusic\" target=\"_blank\">\n                                <span mbr-icon class=\"px-2 icon1 mbr-iconfont mbr-iconfont-social socicon-github socicon\"></span>\n                            </a>\n                            <a href=\"https://www.linkedin.com/in/dr-daniel-manoiu-53b98139/\" target=\"_blank\">\n                                <span mbr-icon class=\"px-2 icon2 mbr-iconfont mbr-iconfont-social fa-linkedin-square fa\" mbr-if=\"iconsCount > 1\"></span>\n                            </a>\n                            <a href=\"https://www.manoiumusic.com/\" target=\"_blank\">\n                                <span mbr-icon class=\"px-2 icon3 mbr-iconfont mbr-iconfont-social fa-globe fa\" mbr-if=\"iconsCount > 2\"></span>\n                            </a>\n                        </div>\n\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-testimonial align-center col-12 col-md-6\" mbr-class=\"{'col-lg-4': TestimonialsCount <= 3, 'col-lg-3': TestimonialsCount > 3  }\" mbr-if=\"TestimonialsCount>1\">\n                <div class=\"panel-item\">\n                    <div class=\"card-block\">\n                        <div class=\"testimonial-photo\" mbr-if=\"showImages\">\n                            <img src=\"@PROJECT_PATH@/assets/images/sage-image-4-350x350.png\" alt title>\n                        </div>\n                    </div>\n                    <div class=\"card-footer\" mbr-if=\"!!hoverEffect\">\n                        <div class=\"mbr-author-name mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-author-name\" mbr-text>Sage Fremont</div>\n                        <p class=\"mbr-author-desc pt-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showBio\" data-app-selector=\".mbr-author-desc\">\n                            Sage is an American computer scientist and composer, based in Philadelphia, Pennsylvania. She has created a variety of music tools for mobile platforms. She also works as a musician and audio engineer.</p>\n\n                        <div class=\"social-list pt-4 pl-0 mb-0\">\n                            <a href=\"https://github.com/SageWare\" target=\"_blank\">\n                                <span mbr-icon class=\"px-2 icon1 mbr-iconfont mbr-iconfont-social socicon-github socicon\"></span>\n                            </a>\n                            \n                                <a href=\"https://www.linkedin.com/in/sagefremont/\" target=\"_blank\"><span mbr-icon class=\"px-2 icon2 mbr-iconfont mbr-iconfont-social fa-linkedin-square fa\" mbr-if=\"iconsCount > 1\"></span></a>\n                            \n                            \n                                <span mbr-icon class=\"px-2 icon3 mbr-iconfont mbr-iconfont-social fa-globe fa\" mbr-if=\"iconsCount > 2\"></span>\n                            \n                        </div>\n\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-testimonial align-center col-12 col-md-6\" mbr-class=\"{'col-lg-4': TestimonialsCount <= 3, 'col-lg-3': TestimonialsCount > 3  }\" mbr-if=\"TestimonialsCount>2\">\n                <div class=\"panel-item\">\n                    <div class=\"card-block\">\n                        <div class=\"testimonial-photo\" mbr-if=\"showImages\">\n                            <img src=\"@PROJECT_PATH@/assets/images/face3.jpg\">\n                        </div>\n\n                    </div>\n                    <div class=\"card-footer\" mbr-if=\"!!hoverEffect\">\n                        <div class=\"mbr-author-name mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-author-name\" mbr-text>Mary Page</div>\n                        <p class=\"mbr-author-desc pt-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showBio\" data-app-selector=\".mbr-author-desc\">\n                            DESIGNER</p>\n\n                        <div class=\"social-list pt-4 pl-0 mb-0\">\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"px-2 icon1 mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                            </a>\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon class=\"px-2 icon2 mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" mbr-if=\"iconsCount > 1\"></span>\n                            </a>\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"px-2 icon3 mbr-iconfont mbr-iconfont-social socicon-googleplus socicon\" mbr-if=\"iconsCount > 2\"></span>\n                            </a>\n                        </div>\n\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"mbr-testimonial align-center col-12 col-md-6\" mbr-class=\"{'col-lg-4': TestimonialsCount <= 3, 'col-lg-3': TestimonialsCount > 3 }\" mbr-if=\"TestimonialsCount>3\">\n                <div class=\"panel-item\">\n                    <div class=\"card-block\">\n                        <div class=\"testimonial-photo\" mbr-if=\"showImages\">\n                            <img src=\"@PROJECT_PATH@/assets/images/face4.jpg\">\n                        </div>\n\n                    </div>\n                    <div class=\"card-footer\" mbr-if=\"!!hoverEffect\">\n                        <div class=\"mbr-author-name mbr-semibold mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showName\" data-app-selector=\".mbr-author-name\" mbr-text>Donald Walsh</div>\n                        <p class=\"mbr-author-desc pt-3 mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showBio\" data-app-selector=\".mbr-author-desc\">\n                            PROGRAMMER</p>\n\n                        <div class=\"social-list pt-4 pl-0 mb-0\">\n                            <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"px-2 icon1 mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                            </a>\n                            <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\">\n                                <span mbr-icon class=\"px-2 icon2 mbr-iconfont mbr-iconfont-social socicon-twitter socicon\" mbr-if=\"iconsCount > 1\"></span>\n                            </a>\n                            <a href=\"https://instagram.com/mobirise\" target=\"_blank\">\n                                <span mbr-icon class=\"px-2 icon3 mbr-iconfont mbr-iconfont-social socicon-googleplus socicon\" mbr-if=\"iconsCount > 2\"></span>\n                            </a>\n                        </div>\n\n                    </div>\n                </div>\n            </div>\n\n\n        </div>\n    </div>\n</section>",
-          "_anchor": "extTeams10-3i",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "s790lQ1hsh",
+          "_name": "extTeams11",
+          "_customHTML": "<section class=\"extTeams\" group=\"Additional Blocks\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"4\"> \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n\n        <input type=\"checkbox\" title=\"Show Name\" name=\"showContentTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Name Subtitle\" name=\"showContentSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showContentText\" checked>\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\" selected>2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"color\" title=\"Icons Hover\" name=\"iconsHover\" condition=\"showIcons\" value=\"#ffffff\">\n        <select title=\"Social icons\" name=\"iconsAmount\" condition=\"showIcons\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n        </select>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background3.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#212748\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/iM-NestDPNQ\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay&&bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container':cardsAmount<5,'container-fluid':cardsAmount>4}\">\n        <h2 class=\"mbr-section-title  pb-3 mbr-fonts-style align-center \" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n            Professional Team\n        </h2>\n        <h3 class=\"mbr-section-subtitle pb-4 mbr-fonts-style align-center mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubTitle\" data-app-selector=\".mbr-section-subtitle\">\n            Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n        </h3>\n        <div class=\"media-container-row\">\n\n            <div class=\"card p-3 col-12 col-md-6\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img \">\n                    <img class=\"img-icon\" src=\"@PROJECT_PATH@/assets/images/daniel-image-3-350x350.png\" alt=\"Mobirise\" title>\n                </div>\n                <div class=\"card-box align-center\" mbr-if=\"showContentTitle||showContentText||showContentSubTitle||showIcons\">\n                    <h4 class=\"card-title mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-5\" mbr-if=\"showContentTitle\" data-app-selector=\".card-title\">Daniel Manoiu</h4>\n                    <h5 class=\"user-desc mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showContentSubTitle\" data-app-selector=\".user-desc\">\n                        Jurist\n                    </h5>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showContentText\" data-app-selector=\".mbr-text, .social-links .mbr-iconfont\"><b>\n                        Daniel</b> is a Romanian game developer and musician, based in Long Beach, California. He has worked on numerous projects, including the <i>Chuck E Cheese</i> animated series, virtual reality experience <i>SZEN</i>, and <i>Ray &amp; Clovis</i> on Amazon Prime.\n                    </p>\n                    <div class=\"social-links\" mbr-if=\"showIcons\">\n                        <a href=\"https://github.com/Manoiumusic\" target=\"_blank\">\n                            <span mbr-icon class=\"px-2 mbr-iconfont mbr-iconfont-social socicon-github socicon\" style=\"color: rgb(85, 180, 212); fill: rgb(85, 180, 212);\"></span>\n                        </a>\n                        <a href=\"https://www.linkedin.com/in/dr-daniel-manoiu-53b98139/\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                            <span mbr-icon class=\"px-2 mbr-iconfont mbr-iconfont-social fa-linkedin-square fa\" style=\"color: rgb(85, 180, 212); fill: rgb(85, 180, 212);\"></span>\n                        </a>\n                        <a href=\"https://www.manoiumusic.com/\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                            <span mbr-icon class=\"px-2 mbr-iconfont mbr-iconfont-social fa-globe fa\" style=\"color: rgb(85, 180, 212); fill: rgb(85, 180, 212);\"></span>\n                        </a>\n                        <a href=\"https://linkedin.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                            <span mbr-icon class=\"px-2 socicon-linkedin socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 align-center\" mbr-if=\"cardsAmount > 1\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img \">\n                    <img class=\"img-icon\" src=\"@PROJECT_PATH@/assets/images/sage-image-4-350x350.png\" alt=\"Mobirise\" title>\n                </div>\n                <div class=\"card-box\" mbr-if=\"showContentTitle||showContentText||showContentSubTitle||showIcons\">\n                    <h4 class=\"card-title mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-5\" mbr-if=\"showContentTitle\" data-app-selector=\".card-title\">Sage Fremont</h4>\n                    <h5 class=\"user-desc mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showContentSubTitle\" data-app-selector=\".user-desc\">\n                        Accountant\n                    </h5>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showContentText\" data-app-selector=\".mbr-text, .social-links .mbr-iconfont\"><b>\n                        Sage</b> is an American computer scientist and composer, based in Philadelphia, Pennsylvania. She has created a variety of music tools for mobile platforms. She also works as a musician and audio engineer.\n                    </p>\n                    <div class=\"social-links\" mbr-if=\"showIcons\">\n                        <a href=\"https://github.com/SageWare\" target=\"_blank\">\n                            <span mbr-icon class=\"px-2 mbr-iconfont mbr-iconfont-social socicon-github socicon\" style=\"color: rgb(85, 180, 212); fill: rgb(85, 180, 212);\"></span>\n                        </a>\n                        <a href=\"https://www.linkedin.com/in/sagefremont/\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                            <span mbr-icon class=\"px-2 mbr-iconfont mbr-iconfont-social fa-linkedin-square fa\" style=\"color: rgb(85, 180, 212); fill: rgb(85, 180, 212);\"></span>\n                        </a>\n                        \n                            <span mbr-icon class=\"px-2 mbr-iconfont mbr-iconfont-social fa-globe fa\" style=\"color: rgb(85, 180, 212); fill: rgb(85, 180, 212);\"></span>\n                        \n                        <a href=\"https://linkedin.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                            <span mbr-icon class=\"px-2 socicon-linkedin socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 align-center\" mbr-if=\"cardsAmount > 2\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img \">\n                    <img class=\"img-icon\" src=\"../_images/faces/face3.jpg\" alt=\"Mobirise\">\n                </div>\n                <div class=\"card-box\" mbr-if=\"showContentTitle||showContentText||showContentSubTitle||showIcons\">\n                    <h4 class=\"card-title mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-5\" mbr-if=\"showContentTitle\" data-app-selector=\".card-title\">\n                        Mary Page</h4>\n                    <h5 class=\"user-desc mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showContentSubTitle\" data-app-selector=\".user-desc\">\n                        Designer\n                    </h5>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showContentText\" data-app-selector=\".mbr-text, .social-links .mbr-iconfont\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                    </p>\n                    <div class=\"social-links\" mbr-if=\"showIcons\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"px-2 socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                            <span mbr-icon class=\"px-2 socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://instagram.com/mobirise\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                            <span mbr-icon class=\"px-2 socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://linkedin.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                            <span mbr-icon class=\"px-2 socicon-linkedin socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n\n            <div class=\"card p-3 col-12 col-md-6 align-center\" mbr-if=\"cardsAmount > 3\" mbr-class=\"{'col-lg-3': cardsAmount == '4',\n                             'col-lg-4': cardsAmount == '3'}\">\n                <div class=\"card-img \">\n                    <div class=\"img-holder\">\n                        <img class=\"img-icon\" src=\"../_images/faces/face4.jpg\" alt=\"Mobirise\">\n                    </div>\n                </div>\n                <div class=\"card-box\" mbr-if=\"showContentTitle||showContentText||showContentSubTitle||showIcons\">\n                    <h4 class=\"card-title mbr-fonts-style mbr-semibold\" mbr-theme-style=\"display-5\" mbr-if=\"showContentTitle\" data-app-selector=\".card-title\">\n                        Donald Walsh</h4>\n                    <h5 class=\"user-desc mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showContentSubTitle\" data-app-selector=\".user-desc\">Programmer\n                    </h5>\n                    <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showContentText\" data-app-selector=\".mbr-text, .social-links .mbr-iconfont\">\n                        Lorem ipsum dolor sit amet, consectetur adipisicing elit.\n                    </p>\n                    <div class=\"social-links\" mbr-if=\"showIcons\">\n                        <a href=\"https://twitter.com/mobirise\" target=\"_blank\">\n                            <span mbr-icon class=\"px-2 socicon-twitter socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                            <span mbr-icon class=\"px-2 socicon-facebook socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://instagram.com/mobirise\" target=\"_blank\" mbr-if=\"iconsAmount > 2\">\n                            <span mbr-icon class=\"px-2 socicon-instagram socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                        <a href=\"https://linkedin.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                            <span mbr-icon class=\"px-2 socicon-linkedin socicon mbr-iconfont mbr-iconfont-social\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n\n        </div>\n    </div>\n</section>",
+          "_cid": "s7kfUr5mOy",
+          "_anchor": "extTeams11-40",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
