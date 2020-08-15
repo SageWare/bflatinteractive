@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "BFLAT Interactive",
-    "currentPage": "games.html",
+    "currentPage": "about.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -93,9 +93,9 @@
     "favicon": "@PROJECT_PATH@/assets/images/favicon1.png",
     "noImageResize": null,
     "robotsSwitcher": false,
-    "sitemapSwitcher": false,
-    "sitemapSwitcherAuto": false,
-    "siteUrl": false,
+    "sitemapSwitcher": true,
+    "sitemapSwitcherAuto": "on",
+    "siteUrl": "http://bflatinteractive.com",
     "cookiesAlert": false,
     "gdpr": false,
     "uniqCompNum": 165,
@@ -109,7 +109,7 @@
         "main": true,
         "title": "BFLAT Interactive",
         "meta_descr": "BFLAT Interactive is an independent game studio based in the United States. The creators of VITAL 2020 and Return to Nothing.",
-        "header_custom": "<meta name=\"keywords\" content=\"bflat interactive, bflat, game developer, video games, sage fremont, daniel manoiu\">",
+        "header_custom": "<meta name=\"keywords\" content=\"bflat interactive, bflat, game developer, video games\">",
         "footer_custom": "",
         "html_before": ""
       },
@@ -4672,7 +4672,7 @@
       "settings": {
         "title": "About - BFLAT Interactive",
         "meta_descr": "About BFLAT Interactive.",
-        "header_custom": "<meta name=\"keywords\" content=\"about bflat interactive, about bflat, bflat bio, bflat interactive bio\">",
+        "header_custom": "<meta name=\"keywords\" content=\"about bflat interactive, about bflat, bflat bio, bflat interactive bio,sage fremont,daniel manoiu\">",
         "footer_custom": "",
         "html_before": "",
         "order": 2
