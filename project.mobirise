@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "BFLAT Interactive",
-    "currentPage": "about.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -95,14 +95,15 @@
     "robotsSwitcher": false,
     "sitemapSwitcher": true,
     "sitemapSwitcherAuto": "on",
-    "siteUrl": "http://bflatinteractive.com",
+    "siteUrl": "http://www.bflatinteractive.com",
     "cookiesAlert": false,
     "gdpr": false,
     "uniqCompNum": 165,
     "versionPublish": "5.0.25",
     "screenshot": "screenshot.png",
     "imageResize": false,
-    "publishChangesOnly": true
+    "publishChangesOnly": true,
+    "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n"
   },
   "pages": {
     "index.html": {
